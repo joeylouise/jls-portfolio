@@ -70,6 +70,21 @@ nav {
 	background-color: inherit;
 }
 
+.site-project__list {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	padding: 14px;
+}
+
+.site-project__list-element {
+	background-color: #4c632f;
+	float: left;
+    width: 40%;
+    margin: 2.5% 5%;
+}
+
 #copyright {
 	display: inline-block;
 	font-family: 'Sacramento', monospace;
@@ -91,3 +106,8 @@ nav {
 	margin: 0 auto;
 }
 
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
