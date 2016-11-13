@@ -1,13 +1,15 @@
 body {
-	/*background-colour: #ffe9ec;*/
-	background-color: #ffd0ca;
+	background-color: #ffc0cb;
 	font-family: monospace;
 }
 
-div {
-	width: 50%;
-	margin: 0 auto;
-	padding-top: 100px;
+img {
+	background-color: #4C632F;
+	box-sizing: border-box;
+	height: auto;
+	position: relative;
+	top: -50px;
+	width: 100%;
 }
 
 nav {
@@ -16,16 +18,17 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 .site-nav__list {
 	list-style-type: none;
-	float: right;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
 	margin-right: 20px;
 	padding: 14px;
+	text-align: right;
 	text-transform: uppercase;
 }
 
@@ -33,8 +36,8 @@ nav {
 	display: inline;
 	font-size: 22px;
 	font-weight: bold;
-/*	height: 50px;
-*/}
+	line-height: 22px;
+}
 
 .site-nav__list-element a {
 	box-sizing: border-box;
@@ -44,11 +47,34 @@ nav {
 }
 
 .site-nav__list-element a:hover {
-	background-color: pink;
+	background-color: #ffc0cb;
 	text-decoration: underline;
+}
+
+.site-nav__list-logo {
+	float: left;
+	font-family: 'Sacramento', monospace;
+	font-size: 30px;
+	text-transform: lowercase;
+}
+
+.site-nav__list-logo a:hover {
+	text-decoration: none;
+	background-color: inherit;
 }
 
 #contact {
 	padding-bottom: 50px;
+}
+
+#outer-wrap {
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+#inner-wrap {
+	max-width: 90%;
+	margin: 0 auto;
 }
 
