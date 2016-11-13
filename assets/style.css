@@ -1,5 +1,6 @@
 body {
 	background-color: #ffc0cb;
+	color: #2e343b; /*chosen for accessibility using http://colorsafe.co */
 	font-family: monospace;
 }
 
@@ -13,7 +14,6 @@ img {
 }
 
 footer {
-	background-color: #ffc0cb;
 	padding: 10px 0;
 	text-align: center;
 	width: 100%;
@@ -48,7 +48,7 @@ nav {
 
 .site-nav__list-element a {
 	box-sizing: border-box;
-	color: #800080;
+	color: #58007e; /*chosen for accessibility using http://colorsafe.co */
 	text-decoration: none;
 	padding: 14px;
 }

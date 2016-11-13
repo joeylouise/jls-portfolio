@@ -3,9 +3,32 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>joeylouise | Official site</title>
+
+    <!--Links for external CSS-->
     <link rel="stylesheet" type="text/css" href="assets/node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <!--Link for Google font-->
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet"> 
+
+    <!--Links for favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <header>
@@ -31,29 +54,40 @@
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices sed nibh ut rhoncus. Quisque ac euismod nunc. Etiam dolor enim, laoreet non ullamcorper ut, laoreet vel augue. Quisque maximus suscipit ligula ut dignissim. Sed dignissim fermentum tortor ut consequat. Sed tempor eleifend est non lacinia. Cras accumsan ipsum sed tincidunt rutrum. Etiam consectetur faucibus pellentesque. Nam eget efficitur mauris, id pellentesque nisi.</p>
 
-        </div>
+        </div><!--Closes #about-->
 
         <div id='projects'>
           <h2>Projects</h2>
           <p>Phasellus laoreet turpis ut mauris placerat finibus. Quisque ut justo ac leo tincidunt dapibus id nec mi. Aliquam posuere metus nulla, id porttitor tortor tincidunt eu. Vivamus feugiat nulla posuere magna pretium, et molestie turpis gravida. Quisque vehicula, ante eleifend eleifend convallis, lectus mauris egestas lacus, a laoreet urna lectus eu eros. Proin sapien mauris, malesuada vel sem eu, mattis elementum erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices sed nibh ut rhoncus. Quisque ac euismod nunc. Etiam dolor enim, laoreet non ullamcorper ut, laoreet vel augue. Quisque maximus suscipit ligula ut dignissim. Sed dignissim fermentum tortor ut consequat. Sed tempor eleifend est non lacinia. Cras accumsan ipsum sed tincidunt rutrum. Etiam consectetur faucibus pellentesque. Nam eget efficitur mauris, id pellentesque nisi.</p>
-        </div>
+          <ul class='site-project__list'>
+            <li class='site-project__list-element'><a href='https://github.com/joeylouise'></a>github</li>
+            <li class='site-project__list-element'><a></a>gitter</li>
+            <li class='site-project__list-element'><a href='https://www.linkedin.com/in/joanna-scott-aa110b81'></a>linkedin</li>
+            <li class='site-project__list-element'><a></a>twitter</li>
+          </ul>
+        </div><!--Closes #projects-->
 
         <div id='contact'>
           <h2>Contact</h2>
           <p>Praesent ut dui non lacus interdum semper. Donec eu dolor justo. Cras finibus arcu condimentum nunc sodales placerat. Duis imperdiet leo vitae tortor sollicitudin semper. Quisque vel lacinia tortor, sit amet elementum quam. Proin ut ullamcorper libero. Aenean sed ultricies felis. Duis sit amet iaculis neque. Fusce sit amet orci ornare, sodales velit sit amet, tincidunt ex. Donec dignissim enim at massa fringilla molestie.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices sed nibh ut rhoncus. Quisque ac euismod nunc. Etiam dolor enim, laoreet non ullamcorper ut, laoreet vel augue. Quisque maximus suscipit ligula ut dignissim. Sed dignissim fermentum tortor ut consequat. Sed tempor eleifend est non lacinia. Cras accumsan ipsum sed tincidunt rutrum. Etiam consectetur faucibus pellentesque. Nam eget efficitur mauris, id pellentesque nisi.</p>
-        </div>
+          <ul class='site-contact__list'>
+            <li class='site-contact__list-element'><a mailto='joannascott29@hotmail.co.uk'></a>email</li>
+            <li class='site-contact__list-element'><a href='https://github.com/joeylouise'></a>github</li>
+            <li class='site-contact__list-element'><a href='https://www.linkedin.com/in/joanna-scott-aa110b81'></a>linkedin</li>
+            <li class='site-contact__list-element'><a href='https://twitter.com/joeylouise29'></a>twitter</li>
+          </ul>
+
+        </div><!--Closes #contact-->
 
       </div><!--Closes #inner-wrap-->
-
-    </div><!--Closes #outer-wrap--> 
     <footer>
       <p id='copyright'>&copy; 2016 joeylouise</p>
       <p id='date-time'></p>
     </footer>
+    </div><!--Closes #outer-wrap--> 
+
     <script src="assets/script.js"></script>
   </body>
 </html>
