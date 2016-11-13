@@ -12,6 +12,13 @@ img {
 	width: 100%;
 }
 
+footer {
+	background-color: #ffc0cb;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
 nav {
 	background-color: #E84A7A;
 	height: 50px;
@@ -63,8 +70,14 @@ nav {
 	background-color: inherit;
 }
 
-#contact {
-	padding-bottom: 50px;
+#copyright {
+	display: inline-block;
+	font-family: 'Sacramento', monospace;
+}
+
+#date-time {
+	float: right;
+	margin-right: 54px;
 }
 
 #outer-wrap {
