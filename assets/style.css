@@ -1,3 +1,11 @@
+a {
+	color: #58007e;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
 body {
 	background-color: #ffc0cb;
 	color: #2e343b; /*chosen for accessibility using http://colorsafe.co */
@@ -44,6 +52,7 @@ nav {
 
 .site-nav__list {
 	list-style-type: none;
+	height: 22px;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
@@ -109,6 +118,10 @@ nav {
     margin: 2.5% 3.5%;
 }
 
+#about {
+	height: 300px;
+}
+
 #copyright {
 	display: inline-block;
 	font-family: 'Sacramento', monospace;
@@ -126,6 +139,7 @@ nav {
 }
 
 #inner-wrap {
+	font-size: 1.3em;
 	max-width: 90%;
 	margin: 0 auto;
 }
