@@ -119,8 +119,12 @@ nav {
     margin: 2.5% 3.5%;
 }
 
+.contact_logo {
+	width: 70%;
+}
+
 #about {
-	background-color: red;
+	/*background-color: red;*/
 	height: auto;
 	position: relative;
 }
