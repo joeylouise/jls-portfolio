@@ -7,7 +7,7 @@ a:hover {
 }
 
 body {
-	background-color: #ffc0cb;
+	background-color: #ECF0F1;
 	color: #2e343b; /*chosen for accessibility using http://colorsafe.co */
 	font-family: monospace;
 }
@@ -38,6 +38,7 @@ nav {
 	border-radius: 50%;
 	float: right;
 	height: auto;
+	margin-left: 10px;
 	width: 150px;
 }
 
@@ -47,6 +48,10 @@ nav {
 	height: auto;
 	top: -5px;
 	width: 30px;
+}
+
+.main {
+	margin-bottom: 80px;
 }
 
 .site-nav__list {
@@ -127,7 +132,7 @@ nav {
 	position: relative;
 }
 
-#about-position {
+#about-position, #projects-position, #contact-position {
 	display: block;
 	height: 0;
 	position: relative;
@@ -148,7 +153,6 @@ nav {
 	max-width: 100%;
 	margin: 0 auto;
 	padding-top: 100px;
-	text-align: justify;
 }
 
 #inner-wrap {
