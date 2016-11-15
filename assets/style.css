@@ -106,23 +106,24 @@ nav {
 
 .site-project__list, .site-contact__list {
 	list-style-type: none;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 80%;
 	overflow: hidden;
 	padding: 0;
 	padding: 14px;
 }
 
 .site-project__list-element {
-	background-color: rgba(232,74,122,0.6);
+	background-color: lightblue;
 	border-radius: 50%;
 	float: left;
-	height: 120px;
+	height: 200px;
     margin: 2.5% 3%;
-    width: 26.33333333%;
+    width: 200px;
 }
 
 .site-contact__list-element {
-	background-color: rgba(232,74,122,0.6);
+	background-color: lightblue;
 	float: left;
 	height: 120px;
     width: 18%;
@@ -175,8 +176,25 @@ li.list-responsive {
   	display: none;
   }
 
-@media (min-width: 630px) {
+@media (min-width: 632px) {
   li.list-responsive {
   	display: inline;
   }
+}
+
+@media (min-width: 1460px) {
+  .site-project__list {
+  	max-width: 100%;
+  }
+
+  .site-project__list-element {
+	background-color: lightblue;
+	border-radius: 50%;
+	float: left;
+	height: 150px;
+    margin: 2.5% 2%;
+    width: 150px;
+}
+
+
 }
