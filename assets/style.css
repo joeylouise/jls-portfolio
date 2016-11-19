@@ -1,5 +1,5 @@
 a {
-	color: #58007e;
+	color: #58007e;/*chosen for accessibility using http://colorsafe.co */
 }
 
 a:hover {
@@ -24,19 +24,19 @@ body {
 	top: -60px;
 }
 
-footer {
-	padding: 10px 0;
-	text-align: center;
-	width: 100%;
-}
-
-nav {
+header {
 	background-color: #E84A7A;
 	height: 50px;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 10;
+}
+
+footer {
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
 }
 
 .avatar {
@@ -57,12 +57,23 @@ nav {
 	margin: 40px 0;
 }
 
-.site-nav__list {
+li.list-responsive {
+  	display: none;
+  }
+
+@media (min-width: 630px) {
+  li.list-responsive {
+  	display: inline;
+  }
+}
+
+#site-nav__list {
 	list-style-type: none;
 	height: 22px;
+	float: right;
+	font-weight: bold;
 	margin: 0;
 	overflow: hidden;
-	padding: 0;
 	margin-right: 15px;
 	padding: 14px;
 	text-align: right;
@@ -72,13 +83,10 @@ nav {
 .site-nav__list-element {
 	display: inline;
 	font-size: 22px;
-	font-weight: bold;
 	line-height: 22px;
 }
 
 .site-nav__list-element a {
-	box-sizing: border-box;
-	color: #58007e; /*chosen for accessibility using http://colorsafe.co */
 	text-decoration: none;
 	padding: 14px;
 }
@@ -88,14 +96,21 @@ nav {
 	text-decoration: underline;
 }
 
-.site-nav__list-logo {
+.site-header__logo {
+	/*box-sizing: border-box;*/
 	float: left;
 	font-family: 'Sacramento', monospace;
 	font-size: 30px;
+	font-weight: bold;
+	line-height: 22px;
+	list-style-type: none;
+	margin-left: 14px;
+	padding: 14px;
+	text-decoration: none;
 	text-transform: lowercase;
 }
 
-.site-nav__list-logo a:hover {
+.site-header__logo a:hover {
 	text-decoration: none;
 }
 
@@ -179,14 +194,4 @@ nav {
 	font-size: 1.3em;
 	max-width: 90%;
 	margin: 0 auto;
-}
-
-li.list-responsive {
-  	display: none;
-  }
-
-@media (min-width: 630px) {
-  li.list-responsive {
-  	display: inline;
-  }
 }
