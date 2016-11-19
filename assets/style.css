@@ -41,16 +41,21 @@ footer {
 
 .avatar {
 	border-radius: 50%;
+	clear: both;
 	float: right;
 	height: auto;
 	margin-left: 10px;
-	width: 150px;
 }
 
 .avatar_logo {
 	position: relative;
-	top: -5px;
+	margin-right: 29px;
+	top: -41px;
 	width: 30px;
+}
+
+.avatar_main {
+	width: 150px;
 }
 
 .main {
@@ -72,9 +77,8 @@ li.list-responsive {
 	height: 22px;
 	float: right;
 	font-weight: bold;
-	margin: 0;
 	overflow: hidden;
-	margin-right: 15px;
+	margin: 0 55px 0 0;
 	padding: 14px;
 	text-align: right;
 	text-transform: uppercase;
@@ -108,10 +112,6 @@ li.list-responsive {
 	padding: 14px;
 	text-decoration: none;
 	text-transform: lowercase;
-}
-
-.site-header__logo a:hover {
-	text-decoration: none;
 }
 
 .site-project__list, .site-contact__list {
