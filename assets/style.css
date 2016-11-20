@@ -90,7 +90,7 @@ footer {
 }
 
 #site-nav__list {
-	/*display: none;*/
+	display: none;
 	background-color: #E84A7A;
 	font-weight: bold;
 	height: 150px;
