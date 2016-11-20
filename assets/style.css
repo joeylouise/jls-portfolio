@@ -85,8 +85,9 @@ footer {
 
 .site-nav__list-element a {
 	display: block;
+	border: dotted 1px;
 	text-decoration: none;
-	padding: 14px;
+	padding: 13px 14px;
 }
 
 .site-nav__list-element a:hover {
@@ -100,10 +101,12 @@ footer {
   }
 
   .site-nav__list-element a {
+  	border: 0;
 	display: inline;
 }
 
   #site-nav__list {
+  	display: block;
 	height: 22px;
 	float: right;
 	margin: 0 55px 0 0;
@@ -114,7 +117,6 @@ footer {
 }
 
 .site-header__logo {
-	/*box-sizing: border-box;*/
 	float: left;
 	font-family: 'Sacramento', monospace;
 	font-size: 30px;
