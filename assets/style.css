@@ -48,10 +48,37 @@ footer {
 }
 
 .avatar_logo {
+	display: none;
 	position: relative;
 	margin-right: 29px;
 	top: -41px;
 	width: 30px;
+}
+
+@media (min-width: 630px) {
+	.avatar_logo {
+		display: block;
+	}
+}
+
+#site-nav__hamburger {
+	float: right;
+	height: 50px;
+	padding-top: 15px;
+	width: 56px;
+}
+
+@media (min-width: 630px) {
+	#site-nav__hamburger {
+		display: none;
+	}
+}
+
+.site-nav__hamburger__part {
+	background-color: #58007e;
+	height: 4px;
+	margin: 0 14px 4px 14px;
+	width: 28px;
 }
 
 .avatar_main {
@@ -103,6 +130,7 @@ footer {
   .site-nav__list-element a {
   	border: 0;
 	display: inline;
+	padding: 14px;
 }
 
   #site-nav__list {
