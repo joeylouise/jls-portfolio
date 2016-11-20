@@ -23,12 +23,14 @@ document.getElementById("date-time").innerHTML = d.toDateString();
 // window.addEventListener('scroll', hasScrolled);
 
 
-function showNav(target){
-	document.getElementById(target).style.display = 'block';
-	document.getElementById("site-nav__hamburger").style.display = 'none';
-}
+// function showNav(target){
+// 	document.getElementById(target).style.display = 'block';
+// 	document.getElementById("site-nav__cross").style.display = 'block';
+// 	document.getElementById("site-nav__hamburger").style.display = 'none';
+// }
 
 // function hideNav(target){
 // 	document.getElementById(target).style.display = 'none';
 // 	document.getElementById("site-nav__hamburger").style.display = 'block';
+// 	document.getElementById("site-nav__cross").style.display = 'none';
 // }
