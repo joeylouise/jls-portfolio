@@ -180,11 +180,35 @@ footer {
 }
 
 .site-project__list-element {
-	background-color: lightblue;
-	border-radius: 50%;
 	float: left;
-	height: 200px;
+	height: 300px;
     margin: 2.5% calc((100% - 200px) / 2);
+    width: 200px;
+}
+
+.site-project__list-element a {
+	border: 4px solid #2e343b;
+	border-radius: 50%;
+	display: block;
+	height: 200px;
+	position: relative;
+    width: 200px;
+}
+
+.site-project__list-element img {
+	height: 100px;
+	position: absolute;
+	right: 25%;
+	top: 25%;
+	width: 100px;
+}
+
+.site-project__list-element p {
+	background-color: lightblue;
+	box-sizing: border-box;
+	height: 100px;
+	margin: 0;
+	padding: 10px;
     width: 200px;
 }
 
@@ -202,10 +226,22 @@ footer {
 
 @media (min-width: 1460px) {
   .site-project__list-element {
-	height: 175px;
-    margin: 2.5% calc((100% - 1050px) / 12);
-    width: 175px;
+  	height: 252px;
+    margin: 2.5% calc((100% - 1008px) / 12);
+    width: 168px;
   }
+ 
+  .site-project__list-element a {
+	height: 168px;
+    width: 168px;
+  }
+
+  .site-project__list-element p {
+	background-color: lightblue;
+	height: 84px;
+    width: 168px;
+  }
+
 }
 
 .site-contact__list-element {
