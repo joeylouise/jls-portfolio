@@ -204,11 +204,11 @@ footer {
 }
 
 .site-project__list-element p {
-	background-color: lightblue;
 	box-sizing: border-box;
 	height: 100px;
 	margin: 0;
 	padding: 10px;
+	text-align: center;
     width: 200px;
 }
 
