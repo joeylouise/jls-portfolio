@@ -200,6 +200,10 @@ footer {
     width: 200px;
 }
 
+.site-project__list-element a:hover {
+	border: 7px solid #2e343b;
+}
+
 .site-project__list-element img {
 	height: 100px;
 	position: absolute;
