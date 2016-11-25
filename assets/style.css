@@ -254,15 +254,15 @@ footer {
 }
 
 .site-contact__list-element {
-	background-color: rgba(232,74,122,0.6);
+	/*background-color: rgba(232,74,122,0.6);*/
 	float: left;
-	height: 120px;
-    width: 18%;
-    margin: 2.5% 3.5%;
+	height: 100px;
+    width: 100px;
+    margin: 2.5% calc((100% - 400px) / 8);;
 }
 
 .contact_logo {
-	width: 70%;
+	width: 100%;
 }
 
 .spacer {

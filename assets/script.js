@@ -35,13 +35,12 @@ function hideNav(target){
 }
 
 function restoreDisplay() {
+	document.getElementById("site-nav__cross").style.display = 'none';
 	if (window.innerWidth > 629) {
 		document.getElementById("site-nav__list").style.display = 'block';
 		document.getElementById("site-nav__hamburger").style.display = 'none';
-		document.getElementById("site-nav__cross").style.display = 'none';
 	} else {
 		document.getElementById("site-nav__list").style.display = 'none';
 		document.getElementById("site-nav__hamburger").style.display = 'block';
-		document.getElementById("site-nav__cross").style.display = 'none';
 	}
 }
