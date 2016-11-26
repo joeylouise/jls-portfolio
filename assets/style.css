@@ -1,5 +1,5 @@
 a {
-	color: #58007e;/*chosen for accessibility using http://colorsafe.co */
+	color: #2e343b;/*chosen for accessibility using http://colorsafe.co */
 }
 
 a:hover {
@@ -129,6 +129,7 @@ footer {
 }
 
 .site-nav__list-element a {
+	color: #ECF0F1;
 	display: block;
 	border: dotted 1px;
 	text-decoration: none;
@@ -137,6 +138,7 @@ footer {
 
 .site-nav__list-element a:hover {
 	background-color: #ECF0F1;
+	color: #2e343b;
 	text-decoration: underline;
 }
 
@@ -163,6 +165,7 @@ footer {
 }
 
 .site-header__logo {
+	color: #58007e;
 	float: left;
 	font-family: 'Sacramento', monospace;
 	font-size: 30px;
