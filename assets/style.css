@@ -215,6 +215,13 @@ footer {
 	width: 100px;
 }
 
+@media (min-width: 1460px) {
+	.site-project__list-element img {
+		right: 18%;
+		top: 20%;
+	}
+}
+
 .site-project__list-element p {
 	box-sizing: border-box;
 	font-weight: bold;
@@ -257,15 +264,25 @@ footer {
 }
 
 .site-contact__list-element {
-	/*background-color: rgba(232,74,122,0.6);*/
 	float: left;
-	height: 100px;
-    width: 100px;
-    margin: 2.5% calc((100% - 400px) / 8);;
+    width: 70px;
+    margin: 2.5% calc((100% - 210px) / 6);
 }
 
-.contact_logo {
-	width: 100%;
+.fa-linkedin-square:before, .fa-github:before, .fa-twitter:before {
+	font-size: 3.5em;
+}
+
+@media (min-width: 530px) {
+	.fa-linkedin-square:before, .fa-github:before, .fa-twitter:before {
+		font-size: 5.5em;
+	}
+
+	.site-contact__list-element {
+	   	height: 100px;
+    	width: 100px;
+    	margin: 2.5% calc((100% - 300px) / 6);
+	}
 }
 
 .spacer {
